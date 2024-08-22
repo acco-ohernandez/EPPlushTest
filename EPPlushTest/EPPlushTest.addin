@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>EPPlushTest - Command 1</Text>
+    <Description>Some description</Description>
+    <Assembly>EPPlushTest\EPPlushTest.dll</Assembly>
+    <FullClassName>EPPlushTest.Command1</FullClassName>
+    <ClientId>ea902f31-1fa9-4917-9b2e-d6405e466321</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>EPPlushTest - Command 2</Text>
+    <Description>Some description</Description>
+    <Assembly>EPPlushTest\EPPlushTest.dll</Assembly>
+    <FullClassName>EPPlushTest.Command2</FullClassName>
+    <ClientId>3c9eba3e-30a9-4f99-bd01-b17f3b76171a</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>EPPlushTest</Name>
+    <Assembly>EPPlushTest\EPPlushTest.dll</Assembly>
+    <FullClassName>EPPlushTest.App</FullClassName>
+    <ClientId>474a773f-eaf5-4411-a214-5c82115b9fe1</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
